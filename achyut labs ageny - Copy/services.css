@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Encode Sans', sans-serif;
+
+}
+
+body {
+  background: rgb(0, 0, 0);
+}
+
+/* header {
+  height: 20vh;
+  
+} */
+
+.navbar {
+  background: rgba(0, 0, 0, 0.986);
+  color: #fff;
+  top: 0;
+  box-shadow: -2px -7px 20px 0px rgb(80 80 80);
+}
+.heading-div{
+    position: relative;
+    top: 7rem;
+    
+}
+
+.heading-div h1{
+    font-size:4rem;
+}
+.aa{
+    color: #ffffff;
+  background-color: #000000ad;
+  border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    transition: box-shadow 0.3s;
+    margin: 0;
+     box-shadow: inset 3px 4px 9px 0px rgb(80 80 80);
+}
+
+ul li {
+    color: rgb(98, 98, 98);
+  
+}
+ul {
+padding : 0 1rem;
+}
+
+/* footer */
+
+.social-icon a {
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .footer-breakline {
+    display: none;
+  }
+  
+  @media (max-width:763px) {
+    .footer-breakline {
+      display: block;
+    }
+  }

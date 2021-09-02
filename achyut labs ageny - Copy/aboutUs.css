@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Encode Sans', sans-serif;
+
+
+}
+body {
+  background: #000;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./assets/aboutUsBannerImg.jpg)
+      no-repeat center center fixed;
+  clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0% 75%, 0 0);
+  background-size: cover;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.294);
+  color: #fff;
+  
+}
+.heading-section {
+  height: 70vh;
+}
+.heading-section h1 {
+  font-size: 4rem;
+}
+.heading-section h2 {
+  font-size: 3rem;
+}
+.section-1-img{
+  border-radius: 45px;
+}
+
+
+
+/* footer */
+.social-icon a{
+  color: #fff;
+  font-size: 2rem;
+}
+.footer-breakline{
+  display:none;
+}
+@media (max-width:763px){
+  .footer-breakline{
+    display:block;
+  }
+}
+.vl {
+  border-left: 3px solid rgb(146, 146, 146);
+  height: auto;
+}
+
+.about-us-text{
+  background: rgba(253, 253, 253, 0.609);
+  border-radius: 5px;
+   /* margin-top: 7rem; */
+   color: rgb(0, 0, 0);
+}
+.para{
+  background: rgb(37, 37, 37);
+  /* color: #000; */
+  border-radius:10px;
+}
+.about-us-card{
+   /* background-color: #000000e8;
+   background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.808)),
+    url(https://ak.picdn.net/shutterstock/videos/9134405/thumb/1.jpg)
+     ;  */
+    /* border-radius: 45px;
+    transition:all 0.3s;
+    padding:20px 30px; */
+    color: #fff;
+    /* box-shadow:0px 1px 9px 0px rgb(80 80 80); */
+}
+
